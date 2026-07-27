@@ -143,7 +143,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="px-4 py-1.5 rounded-full bg-amber-600/10 text-amber-400 border border-amber-500/20 text-sm font-semibold mb-4"
+            className="px-6 py-3 rounded-full bg-amber-600/10 text-amber-600 border border-amber-500/20 text-sm font-semibold mb-4"
           >
             مذاق لا يُنسى ✨
           </motion.span>
