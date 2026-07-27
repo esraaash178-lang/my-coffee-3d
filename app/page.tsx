@@ -138,7 +138,8 @@ export default function Home() {
       <div id="scroll-container" className="relative z-10 pointer-events-auto">
         
         {/* === SECTION 1: HERO === */}
-        <section id="hero" className="min-h-screen w-full overflow-hidden flex flex-col md:flex-row items-center justify-between relative">
+        <section id="hero" className="min-h-screen w-full overflow-hidden flex flex-col justify-center items-center md:items-start text-center md:text-right px-6 md:px-20 relative z-20"
+        >
           <motion.span 
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -173,7 +174,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex gap-4 justify-center md:justify-start md:mr-0"
+            className="flex gap-4 justify-center md:justify-start w-full"
           >
             <a href="#menu" className="px-8 py-3.5 bg-amber-500 hover:bg-amber-600 text-black font-bold rounded-full transition-all md:mt-6 md:mr-0">
               استكشف القائمة
