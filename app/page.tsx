@@ -164,7 +164,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-0 text-right leading-relaxed mb-8"
+            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-0 text-right leading-relaxed mb-30"
             >     
             تجربة فريدة تبدأ من اختيار أجود حبات البني العالمية، وتمر بالتحميص المثالي لتصل إليك في كل فنجان.
           </motion.p>
