@@ -173,7 +173,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.6 }}
-            className="flex gap-4 justify-center md:justify-start"
+            className="flex gap-4 justify-center md:justify-start md:mr-0"
           >
             <a href="#menu" className="px-8 py-3.5 bg-amber-500 hover:bg-amber-600 text-black font-bold rounded-full transition-all md:mt-6 md:mr-0">
               استكشف القائمة
