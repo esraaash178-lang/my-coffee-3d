@@ -100,8 +100,8 @@ export default function Scene() {
   const hasModel = true; // false لو لسه ما عندكش ملف 3D جاهز
 
   return (
-    <div className="fixed top-0 left-[-90] w-full h-screen z-10 pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 6], fov: 50 }}>
+    <div className="fixed top-0 left-0 md:left-[-90px] w-full h-screen z-10 pointer-events-none">
+      <Canvas camera={{ position: [0, 0, 7], fov: 45 }}>
         <ambientLight intensity={1} />
         <directionalLight position={[5, 5, 5]} intensity={2} />
         <pointLight position={[2, 2, 2]} intensity={0.5} />
