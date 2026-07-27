@@ -164,7 +164,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-sm sm:text-base md:text-lg text-gray-300 max-w-xs sm:max-w-md mx-auto md:mx-0 leading-relaxed mb-6 relative z-10 text-center md:text-right"
+            className="text-sm sm:text-base md:text-lg text-gray-300 max-w-xs sm:max-w-md mx-auto md:mx-0 leading-relaxed mb-6 relative z-30 text-center md:text-right mt-4 md:mt-0 bg-black/40 md:bg-transparent p-3 rounded-xl backdrop-blur-sm md:backdrop-blur-none"
             >     
             تجربة فريدة تبدأ من اختيار أجود حبات البني العالمية، وتمر بالتحميص المثالي لتصل إليك في كل فنجان.
           </motion.p>
