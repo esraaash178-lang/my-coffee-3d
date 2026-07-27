@@ -116,16 +116,16 @@ export default function AdminDashboard() {
                     <tr key={order.id} className="hover:bg-zinc-800/50 transition">
                         <td className="p-4 font-medium text-white">
                   <div>{order.customer_name}</div>
-                  {order.phone && (
-                    <div className="text-xs text-amber-400/90 font-mono mt-0.5">
-                      📞 {order.phone}
-                    </div>
-                  )}
-                  {order.address && (
-                    <div className="text-xs text-gray-400 mt-0.5">
-                      📍 {order.address}
-                    </div>
-                  )}
+                  {(order as any).phone && (
+  <div className="...">
+    📞 {(order as any).phone}
+  </div>
+)}
+                 {(order as any).address && (
+  <div className="text-xs text-gray-400 mt-0.5">
+    📍 {(order as any).address}
+  </div>
+)}
                 </td>
                       <td className="p-4 text-zinc-300">{order.items}</td>
                       <td className="p-4 font-semibold text-amber-400">{order.total_price}</td>

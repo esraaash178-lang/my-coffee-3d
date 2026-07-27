@@ -198,6 +198,7 @@ export default function Home() {
             {menuItems.map((item, index) => (
               <LightCard
   key={index}
+  icon="☕"
   title={item.title}
   desc={item.desc}
   price={item.price}
@@ -230,6 +231,8 @@ export default function Home() {
                 icon={feature.icon}
                 title={feature.title}
                 desc={feature.desc}
+                price=" "
+                onOrder={() => {}}
               />
             ))}
           </div>
@@ -238,7 +241,7 @@ export default function Home() {
       <AnimatedCounters />
         {/* === SECTION: COFFEE BUILDER === */}
 <CoffeeBuilder 
-onOrderCustom={(title, price) => setSelectedItem({ title, price })}
+onOrderCustom={(title:any, price:any) => setSelectedItem({ title, price })}
 />
  {/* 💬 قسم آراء العملاء */}
       <Testimonials />
