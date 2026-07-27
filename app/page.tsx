@@ -155,7 +155,7 @@ export default function Home() {
             className="text-3xl sm:text-5xl md:text-7xl font-black leading-tight mb-6"
           >
             قهوة صُنعت <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-400">
+            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-500">
               بكل حب.
             </span>
           </motion.h1>
