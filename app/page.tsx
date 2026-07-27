@@ -143,7 +143,7 @@ export default function Home() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.6 }}
-            className="px-4 py-1.5 rounded-full bg-amber-500/10 text-amber-400 border border-amber-500/20 text-sm font-semibold mb-4"
+            className="px-4 py-1.5 rounded-full bg-amber-600/10 text-amber-400 border border-amber-500/20 text-sm font-semibold mb-4"
           >
             مذاق لا يُنسى ✨
           </motion.span>
@@ -164,7 +164,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-0 text-right leading-relaxed mb-30"
+            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-30 text-right leading-relaxed mb-30"
             >     
             تجربة فريدة تبدأ من اختيار أجود حبات البني العالمية، وتمر بالتحميص المثالي لتصل إليك في كل فنجان.
           </motion.p>
