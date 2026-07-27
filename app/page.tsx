@@ -155,7 +155,7 @@ export default function Home() {
             className="text-3xl sm:text-5xl md:text-7xl font-black leading-tight mb-6"
           >
             قهوة صُنعت <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-500">
+            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-600">
               بكل حب.
             </span>
           </motion.h1>
@@ -164,7 +164,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.4 }}
-            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-30 text-right leading-relaxed mb-30"
+            className="text-base md:text-lg text-gray-300 max-w-sm md:max-w-md ml-auto md:ml-20 text-right leading-relaxed mb-30"
             >     
             تجربة فريدة تبدأ من اختيار أجود حبات البني العالمية، وتمر بالتحميص المثالي لتصل إليك في كل فنجان.
           </motion.p>
