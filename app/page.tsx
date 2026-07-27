@@ -155,7 +155,7 @@ export default function Home() {
             className="text-3xl sm:text-5xl md:text-7xl font-black leading-tight mb-6"
           >
             قهوة صُنعت <br />
-            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-600">
+            <span className="text-transparent bg-clip-text bg-gradient-to-l from-amber-400 to-amber-400">
               بكل حب.
             </span>
           </motion.h1>
@@ -175,7 +175,7 @@ export default function Home() {
             transition={{ duration: 0.8, delay: 0.6 }}
             className="flex gap-4"
           >
-            <a href="#menu" className="px-8 py-3.5 bg-amber-500 hover:bg-amber-400 text-black font-bold rounded-full transition-all shadow-lg shadow-amber-500/20">
+            <a href="#menu" className="-mt-70px-8 py-3.5 bg-amber-500 hover:bg-amber-400 text-black font-bold rounded-full transition-all shadow-lg shadow-amber-500/20">
               استكشف القائمة
             </a>
           </motion.div>
