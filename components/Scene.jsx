@@ -100,13 +100,17 @@ export default function Scene() {
   const hasModel = true; // false لو لسه ما عندكش ملف 3D جاهز
 
   return (
-    <div className="fixed top-0 left-0 md:left-[-90px] w-full h-screen z-10 pointer-events-none">
-      <Canvas camera={{ position: [0, 0, 7], fov: 45 }}>
+    <div className="fixed inset-0 w-full h-full z-0 pointer-events-none">
+  <Canvas camera={{ position: [0, 0, 8], fov: 40 }}>
         <ambientLight intensity={1} />
         <directionalLight position={[5, 5, 5]} intensity={2} />
         <pointLight position={[2, 2, 2]} intensity={0.5} />
         
-        {hasModel ? <Model url="coffee_cup.glb" /> : <TempBox />}
+        {hasModel ? (
+  <group position={[0, -0.5, 0]} scale={[0.7, 0.7, 0.7]}>
+    <Model url="coffee_cup.glb" />
+  </group>
+) : <TempBox />}
         <EffectComposer>
             <Bloom
                 intensity={0.3}
